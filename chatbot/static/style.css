@@ -1,0 +1,33 @@
+.chat-row{
+    display: flex;
+    margin: 10px;
+    width: 100%;
+}
+ .row-reverse{
+     flex-direction: row-reverse; 
+ }
+ .chat-bubble{
+    border: 1px solid transparent;
+     padding: 5px 10px;
+     margin: 0px 7px;
+     border-radius: 10px;
+     max-width: 0%;
+ }
+ .chat-icon{
+     width: 32px;
+     height: 32px;
+ }
+ .ai-bubble {
+    background-color: #e0e0e0; /* Light grey for AI bubble */
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 70%;
+}
+
+.human-bubble {
+    background: linear-gradient(135deg, #2D3A3A, #1C2222); /* Darker gradient for human bubble */
+    color: #2BA84A; /* Text color to match the theme */
+    padding: 10px;
+    border-radius: 20px;
+    max-width: 70%;
+}
